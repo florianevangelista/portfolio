@@ -1,27 +1,15 @@
-@property --num {
+/* @property --num {
     syntax: "<integer>";
     initial-value: 0;
     inherits: false;
-  }
-  .counter1 {
-    animation: counter1 5s forwards;
-    counter-reset: num var(--num);
+  } */
+  .counter {
     font: 800 40px system-ui;
     padding: 2rem;
   }
-  .counter1::after {
-    content: counter(num) " Min";
-  }
-  @keyframes counter1 {
-    from {
-      --num: 0;
-    }
-    to {
-      --num: 40;
-    }
-  }
+  
 
-  .counter2 {
+  /* .counter2 {
     animation: counter2 5s forwards;
     counter-reset: num var(--num);
     font: 800 40px system-ui;
@@ -55,4 +43,4 @@
     to {
       --num: 1300;
     }
-  }
+  } */
